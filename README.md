@@ -1,40 +1,43 @@
-<h1 align="center">Magisk Module Template Extended (MMT-Ex)</h1>
+<h1 align="center">OnePlus 12 System Server Mods - Magisk Module</h1>
 
 <div align="center">
   <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v3.7-blue.svg?longCache=true&style=popout-square"
+    <img src="https://img.shields.io/badge/Version-v1.0-blue.svg?longCache=true&style=popout-square"
       alt="Version" />
   <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-April 24, 2024-green.svg?longCache=true&style=flat-square"
+    <img src="https://img.shields.io/badge/Updated-October%208,%202024-green.svg?longCache=true&style=flat-square"
       alt="_time_stamp_" />
   <!-- Min Magisk -->
-    <img src="https://img.shields.io/badge/MinMagisk-20.4-red.svg?longCache=true&style=flat-square"
+    <img src="https://img.shields.io/badge/MinMagisk-24.0-red.svg?longCache=true&style=flat-square"
       alt="_time_stamp_" />
-  <!-- Min KSU -->
-    <img src="https://img.shields.io/badge/MinKernelSU-0.6.6-red.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" /></div>
+</div>
 
 <div align="center">
-  <strong>MMT Extended is the spiritual successor of Unity and makes magisk module creation easy. Instructions in the 
-    <h3><a href="https://github.com/Zackptg5/MMT-Extended/wiki">Wiki</a></h3><h4>Also supports KSU</h4>
+  <strong>OnePlus 12 System Server Mods is a Magisk module designed for the OnePlus 12 that disables specific system server threads and subprocesses, such as <code>osense</code>, which are known to consume high amounts of CPU resources. This helps optimize battery life and enhance overall system performance.</strong>
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://github.com/Zackptg5/MMT-Extended">
+    <a href="https://github.com/Durocks/Oneplus-12-System-Server-Mods">
       Source Code
-    </a>
-    <span> | </span>
-    <a href="https://github.com/Zackptg5/MMT-Extended-Addons">
-      Addons Repository
-    </a>
-    <span> | </span>
-    <a href="https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819">
-      XDA
     </a>
   </h3>
 </div>
 
 ### Usage
-- [Follow the directions here (DO NOT FORK)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-- Then follow instructions in [Wiki](https://github.com/Zackptg5/MMT-Extended/wiki)
+1. **Installation**:
+   - Download the latest version of the `osense_disable` module zip file.
+   - Open Magisk Manager and navigate to the **Modules** section.
+   - Tap **Install from storage** and select the `osense_disable.zip` file.
+
+2. **Effect**:
+   - Once installed, the module will disable resource-heavy system server threads to reduce CPU usage, helping to save battery and improve device responsiveness.
+
+3. **Further Configuration**:
+   - No additional configuration is required after installation. The module is designed to work out of the box.
+
+### Contributions
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+### Disclaimer
+This module is intended for use with the OnePlus 12 and may not work properly on other devices. Use it at your own risk.
