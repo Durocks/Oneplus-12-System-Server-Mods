@@ -1,0 +1,6 @@
+id=osense_disable
+name=Disable Oplus Osense
+version=1.0
+versionCode=1
+author=Fox
+description=Module to disable Oplus Osense by modifying init.rc
