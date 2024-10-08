@@ -32,9 +32,9 @@ Simple, it modifies the <code>init.rc</code> file under <code>/system/etc/init/h
 
 ### Usage
 1. **Installation**:
-   - Download the latest version of the `osense_disable` module zip file.
+   - Download the latest version of the `OnePlus.12.System.Server.Mods` module zip file from the <a href="https://github.com/Durocks/Oneplus-12-System-Server-Mods/releases/">releases</a> section.
    - Open Magisk Manager and navigate to the **Modules** section.
-   - Tap **Install from storage** and select the `osense_disable.zip` file.
+   - Tap **Install from storage** and select the `OnePlus.12.System.Server.Mods.zip` file.
 
 2. **Effect**:
    - Once installed, the module will disable resource-heavy system server threads to reduce CPU usage, helping to save battery and improve device responsiveness.
