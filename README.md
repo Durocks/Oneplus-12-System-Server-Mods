@@ -24,6 +24,12 @@
   </h3>
 </div>
 
+### Background
+Having a rooted OnePlus 12, I noticed executing the <code>top</code> command sometimes showed a constant 40-100% usage from the <code>system_server</code> main process. I therefore executed <code>top -H</code> to see what specific thread was causing the high CPU usage, and it turned out to be a thread called <code>osense.compress</code>, which according to the very little information I found, is a OnePlus process related to memory compression and processes management. I was able to stop the process by rebooting or killing <code>system_server</code> (Which of course triggered a System UI restart), but after a while, the CPU usage was back to 40-100%.
+
+### What does the module do?
+Simple, it modifies the <code>init.rc</code> file under <code>/system/etc/init/hw/</code>, commenting the lines that start the <code>osense</code> process. I still need some testing to be sure it's actually managing to stop the process. So far, I haven't seen it start again, and the CPU usage has been normal (Closer to 12%) when idle.
+
 ### Usage
 1. **Installation**:
    - Download the latest version of the `osense_disable` module zip file.
