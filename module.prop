@@ -1,6 +1,6 @@
 id=osense_disable
-name=Disable Oplus Osense
+name=OnePlus 12 System Server Mods
 version=1.0
 versionCode=1
 author=Fox
-description=Module to disable Oplus Osense by modifying init.rc
+description=Module to disable Oplus Osense and others by modifying init.rc
