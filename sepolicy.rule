@@ -1,0 +1,3 @@
+# sepolicy.rule
+neverallow *:process osense:process { get set exec };
+neverallow *:process osense.compress:process { get set exec };
