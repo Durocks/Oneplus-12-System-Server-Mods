@@ -1,7 +1,0 @@
-# sepolicy.rule
-neverallow *:process osense:process { get set exec };
-neverallow *:process osense.compress:process { get set exec };
-neverallow *:process vendor.oplus.hardware.osense.client:process { get set exec };
-neverallow *:process vendor.oplus.hardware.osense.client@1.0:process { get set exec };
-neverallow *:process vendor.oplus.hardware.osense.client-V1-ndk:process { get set exec };
-neverallow *:process mediacodec_exec:process { get set exec };
